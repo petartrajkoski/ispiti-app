@@ -59,7 +59,6 @@ class ExamListScreen extends StatelessWidget {
           isPassed: true),
     ];
 
-    // Sort exams chronologically
     exams.sort((a, b) => a.dateTime.compareTo(b.dateTime));
 
     return Scaffold(
